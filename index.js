@@ -23,7 +23,7 @@ fs.readdir("./commands", (err, files) => {
 
 bot.on("ready", async () => {
     console.log(`${bot.user.username} is online in ${bot.guilds.size} servers!`);
-    bot.user.setActivity("Hunting for bugs !!bug", {type: "WATCHING"});
+    bot.user.setActivity("Hunting for bugs >>bug", {type: "WATCHING"});
     bot.user.setStatus("online")
 });
 
